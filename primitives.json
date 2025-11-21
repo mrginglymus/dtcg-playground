@@ -15,5 +15,21 @@
       "alpha": 1,
       "hex": "#0c2877"
     }
+  },
+  "light-orange": {
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [0.9765625, 0.83203125, 0.82421875],
+      "alpha": 1,
+      "hex": "#f9d4d2"
+    }
+  },
+  "dark-orange": {
+    "$value": {
+      "colorSpace": "srgb",
+      "components": [0.4765625, 0.1015625, 0.109375],
+      "alpha": 1,
+      "hex": "#79191b"
+    }
   }
 }

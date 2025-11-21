@@ -1,12 +1,17 @@
 {
   "name": "dtcg-playground",
   "packageManager": "yarn@4.9.2",
-  "types": "module",
+  "type": "module",
+  "scripts": {
+    "compile": "node compile.ts",
+    "build": "tz build"
+  },
   "devDependencies": {
     "@terrazzo/cli": "^2.0.0-alpha.4",
     "@terrazzo/parser": "^2.0.0-alpha.4",
     "@terrazzo/plugin-css": "^2.0.0-alpha.3",
     "@terrazzo/plugin-sass": "^2.0.0-alpha.3",
+    "@types/node": "^24.10.1",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
   },

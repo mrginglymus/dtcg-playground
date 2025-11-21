@@ -12,6 +12,12 @@
   "modifiers": {
     "theme": {
       "contexts": {
+        "orange": [{ "$ref": "themes.json#orange" }],
+        "blue": [{ "$ref": "themes.json#blue" }]
+      }
+    },
+    "mode": {
+      "contexts": {
         "light": [{ "$ref": "modes.json#light" }],
         "dark": [{ "$ref": "modes.json#dark" }]
       }
@@ -20,6 +26,7 @@
   "resolutionOrder": [
     { "$ref": "#/sets/tokens" },
     { "$ref": "#/modifiers/theme" },
+    { "$ref": "#/modifiers/mode" },
     { "$ref": "#/sets/primitives" }
   ]
 }

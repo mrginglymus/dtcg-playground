@@ -1,0 +1,19 @@
+{
+  "$type": "color",
+  "orange": {
+    "dark": {
+      "$value": "{dark-orange}"
+    },
+    "light": {
+      "$value": "{light-orange}"
+    }
+  },
+  "blue": {
+    "dark": {
+      "$value": "{dark-blue}"
+    },
+    "light": {
+      "$value": "{light-blue}"
+    }
+  }
+}
