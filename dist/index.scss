@@ -6,14 +6,13 @@
 @use "sass:map";
 
 $__token-values: (
+  "blue": var(--blue),
   "color": var(--color),
-  "dark": var(--dark),
   "dark-blue": var(--dark-blue),
   "dark-orange": var(--dark-orange),
-  "light": var(--light),
   "light-blue": var(--light-blue),
   "light-orange": var(--light-orange),
-  "primary": var(--primary)
+  "orange": var(--orange)
 );
 
 $__token-typography-mixins: (
