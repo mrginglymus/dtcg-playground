@@ -208,7 +208,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hono/node-server@npm:^1.19.6":
+"@hono/node-server@npm:^1.19.7":
   version: 1.19.7
   resolution: "@hono/node-server@npm:1.19.7"
   peerDependencies:
@@ -425,16 +425,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@terrazzo/cli@npm:^2.0.0-alpha.6":
-  version: 2.0.0-alpha.6
-  resolution: "@terrazzo/cli@npm:2.0.0-alpha.6"
+"@terrazzo/cli@npm:^2.0.0-alpha.7":
+  version: 2.0.0-alpha.7
+  resolution: "@terrazzo/cli@npm:2.0.0-alpha.7"
   dependencies:
     "@clack/prompts": "npm:^0.11.0"
-    "@hono/node-server": "npm:^1.19.6"
+    "@hono/node-server": "npm:^1.19.7"
     "@humanwhocodes/momoa": "npm:^3.3.10"
-    "@terrazzo/json-schema-tools": "npm:^0.1.0-alpha.1"
-    "@terrazzo/parser": "npm:^2.0.0-alpha.6"
-    "@terrazzo/token-tools": "npm:^2.0.0-alpha.6"
+    "@terrazzo/json-schema-tools": "npm:^0.2.0"
+    "@terrazzo/parser": "npm:^2.0.0-alpha.7"
+    "@terrazzo/token-tools": "npm:^2.0.0-alpha.7"
     "@types/escodegen": "npm:^0.0.10"
     chokidar: "npm:^3.6.0"
     detect-package-manager: "npm:^3.0.2"
@@ -450,28 +450,30 @@ __metadata:
   bin:
     terrazzo: bin/cli.js
     tz: bin/cli.js
-  checksum: 10c0/d8e7444f143464f279a354d9c76dfee71576b0f5e00cbd7083e183ec380922e6f27a06853ccfa2d39179f115d8ec8a7ebff54300d05130f6d59a0e09585aeb13
+  checksum: 10c0/0ac8d38ea65dd6e802b861dd184a61a9e52ba71409abd273f3bc13677dd1a96d179e2996df2bf67dbc8a4ab7349fc7652db098083f6631d2849950b6d00e5d89
   languageName: node
   linkType: hard
 
-"@terrazzo/json-schema-tools@npm:0.1.0-alpha.0":
-  version: 0.1.0-alpha.0
-  resolution: "@terrazzo/json-schema-tools@npm:0.1.0-alpha.0"
-  dependencies:
-    "@humanwhocodes/momoa": "npm:^3.3.10"
+"@terrazzo/json-schema-tools@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@terrazzo/json-schema-tools@npm:0.2.0"
   peerDependencies:
     "@humanwhocodes/momoa": ^3.0.0
-  checksum: 10c0/8be91a7cdbb73d5f52bf88734226cee914545cc88e2ef2bc07967e4d36c941632fbbf297288f14198970d456ad5c6ef4564824ff3c3a521fbbef0e72250aa327
+    yaml-to-momoa: 0.0.8
+  peerDependenciesMeta:
+    yaml-to-momoa:
+      optional: true
+  checksum: 10c0/4a03a811e276519b1e500b5fa18d04de359df908cb290fce2a8c3b439d99e920c01838597b6677cb278f230a69586b1dba7ad8f1221033c992f7c32c07e07794
   languageName: node
   linkType: hard
 
-"@terrazzo/parser@npm:^2.0.0-alpha.6":
-  version: 2.0.0-alpha.6
-  resolution: "@terrazzo/parser@npm:2.0.0-alpha.6"
+"@terrazzo/parser@npm:^2.0.0-alpha.7":
+  version: 2.0.0-alpha.7
+  resolution: "@terrazzo/parser@npm:2.0.0-alpha.7"
   dependencies:
     "@humanwhocodes/momoa": "npm:^3.3.10"
-    "@terrazzo/json-schema-tools": "npm:^0.1.0-alpha.1"
-    "@terrazzo/token-tools": "npm:^2.0.0-alpha.6"
+    "@terrazzo/json-schema-tools": "npm:^0.2.0"
+    "@terrazzo/token-tools": "npm:^2.0.0-alpha.7"
     "@types/babel__code-frame": "npm:^7.0.6"
     "@types/culori": "npm:^4.0.1"
     culori: "npm:^4.0.2"
@@ -485,45 +487,45 @@ __metadata:
   peerDependenciesMeta:
     yaml-to-momoa:
       optional: true
-  checksum: 10c0/0701bbc503fa52ad699a01d31f35f276fac0cb6a55a0106b26b74004dbb7c4509775b9ac0a97852bf9c023101fe77ec86543bea1fafdc5842d31b1856d9da9c5
+  checksum: 10c0/72d047441b6774fcee8ec0e9b63c041dd4020dd8ab642fab24edb5956a8041931d12a775fe92c691a5b0eda85c2d706ea87eae5b72356267d888154a1c847476
   languageName: node
   linkType: hard
 
-"@terrazzo/plugin-css@npm:^2.0.0-alpha.6":
-  version: 2.0.0-alpha.6
-  resolution: "@terrazzo/plugin-css@npm:2.0.0-alpha.6"
+"@terrazzo/plugin-css@npm:^2.0.0-alpha.7":
+  version: 2.0.0-alpha.7
+  resolution: "@terrazzo/plugin-css@npm:2.0.0-alpha.7"
   dependencies:
-    "@terrazzo/token-tools": "npm:^2.0.0-alpha.6"
+    "@terrazzo/token-tools": "npm:^2.0.0-alpha.7"
     wildcard-match: "npm:^5.1.4"
   peerDependencies:
-    "@terrazzo/cli": ^2.0.0-alpha.6
-    "@terrazzo/parser": ^2.0.0-alpha.6
-  checksum: 10c0/be55462ef5c665aad9350365c5a3b72beafbf34154ba78a8d2bb58c5e7d0b5fbe1b963f90c4dc4349a925095cf05bc87f588a7b5ca4d9a0227d24084fd475ba4
+    "@terrazzo/cli": ^2.0.0-alpha.7
+    "@terrazzo/parser": ^2.0.0-alpha.7
+  checksum: 10c0/6cdbd0a25d40593f6f22dda17e8760ab7ae1d4f86c2c95e530f66953fa1aaa0de5294da8820903d26cfc9282b991ad19236561c36d8243caf1d8cebba3ff738a
   languageName: node
   linkType: hard
 
-"@terrazzo/plugin-sass@npm:^2.0.0-alpha.6":
-  version: 2.0.0-alpha.6
-  resolution: "@terrazzo/plugin-sass@npm:2.0.0-alpha.6"
+"@terrazzo/plugin-sass@npm:^2.0.0-alpha.7":
+  version: 2.0.0-alpha.7
+  resolution: "@terrazzo/plugin-sass@npm:2.0.0-alpha.7"
   dependencies:
-    "@terrazzo/token-tools": "npm:^2.0.0-alpha.6"
+    "@terrazzo/token-tools": "npm:^2.0.0-alpha.7"
     wildcard-match: "npm:^5.1.4"
   peerDependencies:
-    "@terrazzo/cli": ^2.0.0-alpha.6
-    "@terrazzo/parser": ^2.0.0-alpha.6
-    "@terrazzo/plugin-css": ^2.0.0-alpha.6
-  checksum: 10c0/923aea5ac1f3d8385f116937eaa3db12c5e235a7f998f1a0c6eab30e66bb7b8c28f864c1d7af48372812007f8aba8b10bc0253f08940b60f1ececae37460298c
+    "@terrazzo/cli": ^2.0.0-alpha.7
+    "@terrazzo/parser": ^2.0.0-alpha.7
+    "@terrazzo/plugin-css": ^2.0.0-alpha.7
+  checksum: 10c0/8e64a348a82263a741e55f69d0d293c96643f12f496949a5f6c9a70a1f80bd71d4b687a6cfdd22b8917cfdad51a1f55a2368f3e6defa86463a2bb89961fa31ba
   languageName: node
   linkType: hard
 
-"@terrazzo/token-tools@npm:^2.0.0-alpha.6":
-  version: 2.0.0-alpha.6
-  resolution: "@terrazzo/token-tools@npm:2.0.0-alpha.6"
+"@terrazzo/token-tools@npm:^2.0.0-alpha.7":
+  version: 2.0.0-alpha.7
+  resolution: "@terrazzo/token-tools@npm:2.0.0-alpha.7"
   dependencies:
     "@humanwhocodes/momoa": "npm:^3.3.10"
     culori: "npm:^4.0.2"
     wildcard-match: "npm:^5.1.4"
-  checksum: 10c0/4fd76d5d357b48f73be008b020ad0f2e0b81a399b6d030d8cb106ecb8fe34ffdbcd1f7f1d566557fbb06f98fee518e8e8bed791633c07f910a71a0c00b3c9b2e
+  checksum: 10c0/228a75efa55c048a337a99e482de4b8dac5d6ee8c5d2fdeae0ac6ff6e82736609b3388467aa2ccbd5cd61cf5aac0a55ec4bd702c922181625ab58f454a36e084
   languageName: node
   linkType: hard
 
@@ -706,10 +708,10 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dtcg-playground@workspace:."
   dependencies:
-    "@terrazzo/cli": "npm:^2.0.0-alpha.6"
-    "@terrazzo/parser": "npm:^2.0.0-alpha.6"
-    "@terrazzo/plugin-css": "npm:^2.0.0-alpha.6"
-    "@terrazzo/plugin-sass": "npm:^2.0.0-alpha.6"
+    "@terrazzo/cli": "npm:^2.0.0-alpha.7"
+    "@terrazzo/parser": "npm:^2.0.0-alpha.7"
+    "@terrazzo/plugin-css": "npm:^2.0.0-alpha.7"
+    "@terrazzo/plugin-sass": "npm:^2.0.0-alpha.7"
     "@types/node": "npm:^24.10.2"
     prettier: "npm:^3.7.4"
     typescript: "npm:^5.9.3"
