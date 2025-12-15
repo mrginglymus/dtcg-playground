@@ -1,0 +1,19 @@
+{
+  "$type": "color",
+  "orange": {
+    "dark": {
+      "$ref": "primitives.json#dark-orange"
+    },
+    "light": {
+      "$ref": "primitives.json#light-orange"
+    }
+  },
+  "blue": {
+    "dark": {
+      "$ref": "primitives.json#dark-blue"
+    },
+    "light": {
+      "$ref": "primitives.json#light-blue"
+    }
+  }
+}

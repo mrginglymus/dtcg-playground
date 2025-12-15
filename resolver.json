@@ -12,8 +12,8 @@
   "modifiers": {
     "theme": {
       "contexts": {
-        "orange": [{ "$ref": "themes.json#orange" }],
-        "blue": [{ "$ref": "themes.json#blue" }]
+        "orange": [{ "$ref": "sub/themes.json#orange" }],
+        "blue": [{ "$ref": "sub/themes.json#blue" }]
       }
     },
     "mode": {

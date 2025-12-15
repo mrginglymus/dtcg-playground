@@ -7,15 +7,12 @@
     "build": "tz build"
   },
   "devDependencies": {
-    "@terrazzo/cli": "^2.0.0-alpha.4",
-    "@terrazzo/parser": "^2.0.0-alpha.4",
-    "@terrazzo/plugin-css": "^2.0.0-alpha.3",
-    "@terrazzo/plugin-sass": "^2.0.0-alpha.3",
+    "@terrazzo/cli": "^2.0.0-alpha.7",
+    "@terrazzo/parser": "^2.0.0-alpha.7",
+    "@terrazzo/plugin-css": "^2.0.0-alpha.7",
+    "@terrazzo/plugin-sass": "^2.0.0-alpha.7",
     "@types/node": "^24.10.1",
     "prettier": "^3.6.2",
     "typescript": "^5.9.3"
-  },
-  "resolutions": {
-    "@terrazzo/json-schema-tools@^0.1.0-alpha.0": "0.1.0-alpha.0"
   }
 }
