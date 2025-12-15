@@ -6,12 +6,12 @@
 @use "sass:map";
 
 $__token-values: (
+  "$defs.light-orange": var(--undefined),
   "blue": var(--blue),
   "color": var(--color),
-  "dark-blue": var(--dark-blue),
-  "dark-orange": var(--dark-orange),
-  "light-blue": var(--light-blue),
-  "light-orange": var(--light-orange),
+  "my-color": var(--my-color),
+  "my-other-color": var(--my-other-color),
+  "my-transparent-color": var(--my-transparent-color),
   "orange": var(--orange)
 );
 
