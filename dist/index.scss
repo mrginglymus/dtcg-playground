@@ -12,6 +12,7 @@ $__token-values: (
   "dark-orange": var(--dark-orange),
   "light-blue": var(--light-blue),
   "light-orange": var(--light-orange),
+  "my-color.$value": var(--my-color),
   "orange": var(--orange)
 );
 
