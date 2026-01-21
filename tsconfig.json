@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "noEmit": true,
+    "lib": ["esnext", "dom"],
     "target": "ES2022",
     "module": "NodeNext",
-    "moduleResolution": "nodenext"
+    "moduleResolution": "nodenext",
+    "types": ["node"]
   },
   "include": ["*.ts"]
 }
