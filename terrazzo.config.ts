@@ -25,7 +25,9 @@ for (const [modifier, { contexts }] of Object.entries<ResolverModifier>(
         [modifier]: name,
       },
       prepare(css: string): string {
-        return `.${modifier}-${name} {
+        return `
+        /* ignore: ${[...modifierTokensExclude].join(", ")} */
+        .${modifier}-${name} {
           ${css}
         }
         `;
@@ -39,7 +41,8 @@ permutations.unshift({
   input: {},
   ignore: [...permutationTokens],
   prepare(css: string): string {
-    return `:root { 
+    return `/* ignore: ${[...permutationTokens].join(", ")} */
+    :root { 
     ${css} 
     }`;
   },
