@@ -10,6 +10,7 @@
     "@terrazzo/parser": "^2.0.0-beta.0",
     "@terrazzo/plugin-css": "^2.0.0-beta.0",
     "@terrazzo/plugin-sass": "^2.0.0-beta.0",
+    "@terrazzo/token-tools": "2.0.0-beta.0",
     "@types/node": "^24.10.9",
     "color": "^5.0.3",
     "prettier": "^3.8.0",
