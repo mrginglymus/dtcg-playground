@@ -22,7 +22,3 @@
 .orange {
   --color: var(--orange);
 }
-
-.widget {
-  color: var(--color)
-}
