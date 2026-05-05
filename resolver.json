@@ -2,9 +2,6 @@
   "version": "2025.10",
   "name": "dtcg-test",
   "sets": {
-    "tokens": {
-      "sources": [{ "$ref": "tokens.json" }]
-    },
     "primitives": {
       "sources": [{ "$ref": "primitives.json" }]
     }
@@ -26,7 +23,6 @@
     }
   },
   "resolutionOrder": [
-    { "$ref": "#/sets/tokens" },
     { "$ref": "#/modifiers/theme" },
     { "$ref": "#/modifiers/mode" },
     { "$ref": "#/sets/primitives" }
