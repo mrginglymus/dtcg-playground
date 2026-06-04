@@ -5,6 +5,7 @@
   --light-orange: color(srgb 0.9765625 0.83203125 0.82421875);
 }
 
+/* Comes from 'mode' modifier */
 .dark {
   --blue: var(--dark-blue);
   --orange: var(--dark-orange);
@@ -15,6 +16,7 @@
   --orange: var(--light-orange);
 }
 
+/* Comes from 'theme' modifier */
 .blue {
   --color: var(--blue);
 }
